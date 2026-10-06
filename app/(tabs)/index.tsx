@@ -1,6 +1,6 @@
 import { Ionicons } from "@expo/vector-icons";
-import React from "react";
 import { router } from "expo-router";
+import React from "react";
 import {
   Image,
   ImageBackground,
@@ -46,7 +46,9 @@ export default function HomeScreen() {
             <Text style={styles.statusText}>Vem gör vad idag?</Text>
 
             <Pressable style={styles.mainButton} onPress={handleStart}>
-              <Text style={styles.mainButtonText}>Registrera dagens sysslor</Text>
+              <Text style={styles.mainButtonText}>
+                Registrera dagens sysslor
+              </Text>
             </Pressable>
 
             {/* Extra innehåll så att scroll känns naturlig */}
@@ -54,8 +56,8 @@ export default function HomeScreen() {
               <Ionicons name="apps-outline" size={24} color="#000" />
               <Text style={styles.sectionTitle}>Dagens översikt</Text>
               <Text style={styles.sectionText}>
-                På fliken Registrera ser du vem som har gjort vad,
-                i vilket rum och när.
+                På fliken Registrera ser du vem som har gjort vad, i vilket rum
+                och när.
               </Text>
             </View>
 
@@ -69,8 +71,8 @@ export default function HomeScreen() {
             <View style={styles.section}>
               <Text style={styles.sectionTitle}>Motivation</Text>
               <Text style={styles.sectionText}>
-                Varje insats hjälper hushållet. Ställ in en kvällspåminnelse
-                om du vill ha hjälp att komma ihåg.
+                Varje insats hjälper hushållet. Ställ in en kvällspåminnelse om
+                du vill ha hjälp att komma ihåg.
               </Text>
             </View>
           </View>
@@ -173,4 +175,3 @@ const styles = StyleSheet.create({
     color: "#666666",
   },
 });
-
