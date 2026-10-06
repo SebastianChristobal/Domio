@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "home": { "type": "apartment", "area": 60, "bedrooms": 1, "bathrooms": 1 },
+  "members": [],
+  "pets": []
+}
